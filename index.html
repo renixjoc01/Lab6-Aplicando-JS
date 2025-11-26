@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Científica Básica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora Científica Básica</h1>
+    <p>Programación Web III - Renix Guillen</p>
 
+    <!-- 1️⃣ Suma de tres valores (AHORA EL USUARIO INGRESA LOS NÚMEROS) -->
+    <section>
+      <h2>1. Suma de tres valores</h2>
+      <input type="number" id="num1" placeholder="Ingrese el primer número">
+      <input type="number" id="num2" placeholder="Ingrese el segundo número">
+      <input type="number" id="num3" placeholder="Ingrese el tercer número">
+      <button onclick="sumarValores()">Calcular Suma</button>
+      <p id="resultado1"></p>
+    </section>
+
+    <!-- 2️⃣ Cuadrado de un número -->
+    <section>
+      <h2>2. Cuadrado de un número</h2>
+      <input type="number" id="numeroCuadrado" placeholder="Ingrese un número entero">
+      <button onclick="calcularCuadrado()">Calcular Cuadrado</button>
+      <p id="resultado2"></p>
+    </section>
+
+    <!-- 3️⃣ Promedio de calificaciones -->
+    <section>
+      <h2>3. Promedio de calificaciones</h2>
+      <input type="text" id="nombreEstudiante" placeholder="Nombre del estudiante">
+      <input type="number" id="nota1" placeholder="Calificación 1">
+      <input type="number" id="nota2" placeholder="Calificación 2">
+      <input type="number" id="nota3" placeholder="Calificación 3">
+      <button onclick="calcularPromedio()">Calcular Promedio</button>
+      <p id="resultado3"></p>
+    </section>
+
+    <!-- 4️⃣ Conversión de unidades -->
+    <section>
+      <h2>4. Conversión de unidades (metros)</h2>
+      <input type="number" id="metros" placeholder="Ingrese metros">
+      <button onclick="convertirUnidades()">Convertir</button>
+      <p id="resultado4"></p>
+    </section>
+
+    <!-- 5️⃣ Comparación de dos valores -->
+    <section>
+      <h2>5. Comparación de dos valores</h2>
+      <input type="number" id="valor1" placeholder="Primer número">
+      <input type="number" id="valor2" placeholder="Segundo número">
+      <button onclick="compararValores()">Comparar</button>
+      <p id="resultado5"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
