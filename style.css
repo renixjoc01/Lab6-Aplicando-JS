@@ -1,0 +1,86 @@
+/* === NUEVO DISEÑO TOTALMENTE DIFERENTE === */
+/* Estilo limpio, moderno y profesional */
+
+body {
+  background-color: #f4f4f7;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 650px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 35px 45px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #dcdcdc;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  color: #6b6b6b;
+  font-size: 15px;
+}
+
+section {
+  margin-top: 35px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  background: #fafafa;
+  border: 1px solid #e2e2e2;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+input {
+  width: 96%;
+  padding: 12px;
+  margin: 7px 0;
+  border: 1px solid #c9c9c9;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 15px;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin-top: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+  transform: translateY(-1px);
+}
+
+p[id^="resultado"] {
+  margin-top: 15px;
+  color: #2d6a4f;
+  font-weight: 600;
+  background: #d8f3dc;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border-left: 4px solid #1b4332;
+}
