@@ -7,56 +7,62 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="container">
     <h1>Calculadora Científica Básica</h1>
     <p>Programación Web III - Renix Guillen</p>
 
-    <!-- 1️⃣ Suma de tres valores (AHORA EL USUARIO INGRESA LOS NÚMEROS) -->
+    <!-- 1️⃣ Suma -->
     <section>
-      <h2>1. Suma de tres valores</h2>
-      <input type="number" id="num1" placeholder="Ingrese el primer número">
-      <input type="number" id="num2" placeholder="Ingrese el segundo número">
-      <input type="number" id="num3" placeholder="Ingrese el tercer número">
-      <button onclick="sumarValores()">Calcular Suma</button>
-      <p id="resultado1"></p>
+      <h2>1. Suma de dos valores</h2>
+      <input type="number" id="suma1" placeholder="Ingrese el primer número">
+      <input type="number" id="suma2" placeholder="Ingrese el segundo número">
+      <button onclick="realizarSuma()">Calcular Suma</button>
+      <p id="resultadoSuma"></p>
     </section>
 
-    <!-- 2️⃣ Cuadrado de un número -->
+    <!-- 2️⃣ Resta -->
     <section>
-      <h2>2. Cuadrado de un número</h2>
-      <input type="number" id="numeroCuadrado" placeholder="Ingrese un número entero">
-      <button onclick="calcularCuadrado()">Calcular Cuadrado</button>
-      <p id="resultado2"></p>
+      <h2>2. Resta de dos valores</h2>
+      <input type="number" id="resta1" placeholder="Ingrese el primer número">
+      <input type="number" id="resta2" placeholder="Ingrese el segundo número">
+      <button onclick="realizarResta()">Calcular Resta</button>
+      <p id="resultadoResta"></p>
     </section>
 
-    <!-- 3️⃣ Promedio de calificaciones -->
+    <!-- 3️⃣ Multiplicación -->
     <section>
-      <h2>3. Promedio de calificaciones</h2>
-      <input type="text" id="nombreEstudiante" placeholder="Nombre del estudiante">
-      <input type="number" id="nota1" placeholder="Calificación 1">
-      <input type="number" id="nota2" placeholder="Calificación 2">
-      <input type="number" id="nota3" placeholder="Calificación 3">
-      <button onclick="calcularPromedio()">Calcular Promedio</button>
-      <p id="resultado3"></p>
+      <h2>3. Multiplicación de dos valores</h2>
+      <input type="number" id="multi1" placeholder="Ingrese el primer número">
+      <input type="number" id="multi2" placeholder="Ingrese el segundo número">
+      <button onclick="realizarMultiplicacion()">Calcular Multiplicación</button>
+      <p id="resultadoMulti"></p>
     </section>
 
-    <!-- 4️⃣ Conversión de unidades -->
+    <!-- 4️⃣ División -->
     <section>
-      <h2>4. Conversión de unidades (metros)</h2>
-      <input type="number" id="metros" placeholder="Ingrese metros">
-      <button onclick="convertirUnidades()">Convertir</button>
-      <p id="resultado4"></p>
+      <h2>4. División de dos valores</h2>
+      <input type="number" id="div1" placeholder="Ingrese el primer número">
+      <input type="number" id="div2" placeholder="Ingrese el segundo número">
+      <button onclick="realizarDivision()">Calcular División</button>
+      <p id="resultadoDiv"></p>
     </section>
 
-    <!-- 5️⃣ Comparación de dos valores -->
+    <!-- 5️⃣ Potencia -->
     <section>
-      <h2>5. Comparación de dos valores</h2>
-      <input type="number" id="valor1" placeholder="Primer número">
-      <input type="number" id="valor2" placeholder="Segundo número">
-      <button onclick="compararValores()">Comparar</button>
-      <p id="resultado5"></p>
+      <h2>5. Potencia (base y exponente)</h2>
+      <input type="number" id="base" placeholder="Base">
+      <input type="number" id="expo" placeholder="Exponente">
+      <button onclick="realizarPotencia()">Calcular Potencia</button>
+      <p id="resultadoPot"></p>
     </section>
+
   </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
 
   <script src="script.js"></script>
 </body>
